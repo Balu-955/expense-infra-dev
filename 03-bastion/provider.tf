@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "maahi-remote-state"
-    key    = "expense-infra-dev"
+    key    = "expense-infra-dev-bastion"
     region = "us-east-1"
     dynamodb_table = "maahi-locking"
   }
